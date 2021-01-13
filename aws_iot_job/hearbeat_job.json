@@ -1,0 +1,7 @@
+{
+	"operation" : "heartbeat",
+	"version" : "1.0",
+	"packageName" : "publish heartbeat",
+	"autoStart" : "true"
+
+}

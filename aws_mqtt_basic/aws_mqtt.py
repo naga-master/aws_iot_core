@@ -7,10 +7,10 @@ import json
 from AWSIoTPythonSDK.MQTTLib import AWSIoTMQTTClient
 
 createMQTTClient = AWSIoTMQTTClient("awsgeek")
-createMQTTClient.configureEndpoint('a3560a98lfzc98-ats.iot.us-east-2.amazonaws.com', 443)
+createMQTTClient.configureEndpoint('XXXXX-ats.iot.us-east-2.amazonaws.com', 443)
 
 # Check these certificate names
-createMQTTClient.configureCredentials("certs/AmazonRootCA1.crt", "certs/4962b62fb7-private.pem.key", "certs/4962b62fb7-certificate.pem.crt")
+createMQTTClient.configureCredentials("certs/AmazonRootCA1.crt", "certs/XXXX-private.pem.key", "certs/XXXXX-certificate.pem.crt")
 
 createMQTTClient.configureOfflinePublishQueueing(-1)  # Infinite offline Publish queueing
 createMQTTClient.configureDrainingFrequency(2)  # Draining: 2 Hz
